@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf3f071c8d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header" id="about">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!---------- contant us------>
+    <section class="location">       <!-- <iframe src="" frameborder="0"></iframe> -->
+       <img src="">
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Kothri Kalan, Sehore(Bhopal) </h5>
+                        <p>Bhopal, Madhaya Pradesh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789 </h5>
+                        <p>Monday to Saturday, 10AM to 2PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>vitbhopal@vitbhopal.ac.in</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div >
+            <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea  rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+    
+    <!---------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit distinctio magni sequi! Dolor, optio
+            tempora, ullam labore libero harum odit rem vero nihil dolorum expedita, <br> eaque impedit adipisci velit
+            fugiat
+            debitis voluptates magni!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkdin"></i>
+            <!-- <i class="fab fa-facebook"></i> -->
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Pratham Sahani</p>
+    </section>
+    <!----------Javascript for toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>

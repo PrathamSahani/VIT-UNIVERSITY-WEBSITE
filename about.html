@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf3f071c8d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header" id="about">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--------about us content------>
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, quod aliquam quo nisi fugit ipsam
+                    officia porro necessitatibus quaerat aut reprehenderit commodi sed molestiae, repellat accusantium
+                    molestias aliquid laboriosam repudiandae quam vitae dolore architecto. Labore doloremque, non error
+                    voluptatum, culpa porro exercitationem quaerat a, tempora rerum consectetur enim numquam quod. Eum
+                    sit quas eveniet perspiciatis error voluptatibus ipsum corporis! Tenetur minus consequatur aut
+                    laborum neque sit assumenda? Labore illum nemo repudiandae quisquam consequatur quae ad explicabo
+                    vel modi distinctio cum, atque accusantium quod recusandae et cupiditate quam? Doloribus, corrupti
+                    magni impedit fugiat libero veritatis earum excepturi corporis rerum alias ex dolorum natus, tempore
+                    velit voluptas facilis ullam unde animi! Ipsa, repudiandae? Unde, mollitia libero.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>          
+                </div>
+                <div class="about-col">
+                    <img src="about.jpg" alt="">
+                </div>
+        </div>
+    </section>
+
+
+
+
+    <!---------Footer------->
+
+    <section class="footer" >
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit distinctio magni sequi! Dolor, optio
+            tempora, ullam labore libero harum odit rem vero nihil dolorum expedita, <br> eaque impedit adipisci velit
+            fugiat
+            debitis voluptates magni!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkdin"></i>
+            <!-- <i class="fab fa-facebook"></i> -->
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Pratham Sahani</p>
+    </section>
+    <!----------Javascript for toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
