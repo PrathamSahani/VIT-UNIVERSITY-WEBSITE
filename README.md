@@ -1,2 +1,2 @@
 # VIT-UNIVERSITY-WEBSITE
- https://184425324.github.io/VIT-UNIVERSITY-WEBSITE/
+https://prathamsahani.github.io/VIT-UNIVERSITY-WEBSITE/
